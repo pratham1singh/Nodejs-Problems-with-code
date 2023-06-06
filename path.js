@@ -1,0 +1,5 @@
+const path=require("path")
+// console.log(path.dirname(""))
+// console.log(path.dirname(""))
+console.log(path.extname("hello.txt"))
+console.log(path.extname(__filename))
